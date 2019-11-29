@@ -1,3 +1,11 @@
+/*
+Written by: Collin Puchta
+Program Name: GHP #4
+Description: Utilizes the Stack class used in the Textbook (Included in folder), to get the prime factors
+of an integer that is greater than 1, as entered by the user.
+*/
+
+
 #include <iostream>
 using namespace std;
 

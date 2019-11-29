@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1552159136 source:c:\users\colli\desktop\ghp4\main.cpp
+	<iostream>
+	"stack.h"
+
+1552151007 source:c:\users\colli\desktop\ghp4\stack.cpp
+	<iostream>
+	<cstdlib>
+	"Stack.h"
+
+1552159215 c:\users\colli\desktop\ghp4\stack.h
+	<iostream>
+

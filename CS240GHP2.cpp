@@ -2,7 +2,9 @@
 Name: Collin Puchta
 Program Name: GHP#2 (Alternate Assignment)
 Programmed in: C++ (GNU GCC Compiler)
-Description: Allows the user to input an odd integer, and makes a magic square of that size
+Description: Allows the user to input an odd integer, and makes a "magic square" of that size.
+A Magic Square is a square of integers, where each row, column, and both diagonals all add up to
+the same number
 
 All code in this program is 100% my own. The only external source I used was Stackoverflow.com for some C++ syntax
 */
@@ -97,11 +99,8 @@ for(int a=0;a<input;a++){
 
         cout<<square[a][b]<<" ";
     }
-    }
-
+}
 
 cout<<"\n";
-
-
 return 0;
 }

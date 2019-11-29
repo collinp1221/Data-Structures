@@ -3,8 +3,8 @@ Name: Collin Puchta
 Program Name: GHP #1
 Written in: C++, Using Code::Blocks IDE, and compiled using the GCC Compiler
 Last Modified: 1/31/19
-Description: This program allows the user to input an integer, then input 9 integers,
-and then outputs either 0 or 1 for each, 1 if the integer entered is equal to the
+Description: This program requires the user to enter an integer, then enter 9 more integers.
+the program then outputs either 0 or 1 for each of thoe 9 integers, 1 if the integer entered is equal to the
 integer initially entered, and 0 otherwise
 */
 

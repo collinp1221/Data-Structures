@@ -30,16 +30,21 @@ ifstream fileIn; //declaring fileIn as an input stream
 
 fileIn.open(filename.data()); //Attempts to open entered file name
 
-if(fileIn.is_open()){ //Check to see if the file the user entered has been opened
+if(fileIn.is_open())
+{ //Check to see if the file the user entered has been opened
 
-while(getline(fileIn, line)){ //Get each line in the opened file
+while(getline(fileIn, line))
+{ //Get each line in the opened file
     position = 0; //reset the position of selected character each time a new line is written
     while(position <= line.length()){//Read each character on selected line (stored in variable 'line')
-        if(line[position] != 'D' && line[position] != 'd' && line[position] != ' ' && line[position] != '\0'){//check if selected character is not d or a space
-            if(position == 0){ //If selected character is the first in its line, and is not a 'd' or a space, it is a word that doesn't start with 'd'
+        if(line[position] != 'D' && line[position] != 'd' && line[position] != ' ' && line[position] != '\0')
+        {//check if selected character is not d or a space
+            if(position == 0)
+            { //If selected character is the first in its line, and is not a 'd' or a space, it is a word that doesn't start with 'd'
                 not_d_words ++;
             }
-            else{
+            else
+            {
                 if(line[position - 1] == ' '){//If selected character is preceded by a space, and is not a 'd' or a space, it is a word that doesn't start with 'd'
                     not_d_words ++;
                 }

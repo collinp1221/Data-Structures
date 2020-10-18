@@ -20,7 +20,8 @@ string line; //Each line of selected file is written here (gets overwritten each
 int position = 0; //Used to track position of selected character while reading file
 int not_d_words = 0;//Counter for each word that does not start with the letter 'D'
 
-int main(void){
+int main(void)
+{
 
 cout<<"Enter the name of a file to be processed:\n";
 cin>>filename; //User inputs the filename to be opened

@@ -15,14 +15,14 @@ Information was taken from http://www.cplusplus.com/doc/tutorial/files/ and Prof
 
 using namespace std;
 
+int main(void)
+{
+
 string filename; //User input for what file to open
 string line; //Each line of selected file is written here (gets overwritten each time)
 int position = 0; //Used to track position of selected character while reading file
 int not_d_words = 0;//Counter for each word that does not start with the letter 'D'
-
-int main(void)
-{
-
+    
 cout<<"Enter the name of a file to be processed:\n";
 cin>>filename; //User inputs the filename to be opened
 
